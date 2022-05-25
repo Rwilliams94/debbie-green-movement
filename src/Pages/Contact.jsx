@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Contact.css";
-import TextField from "@material-ui/core/textfield";
+import { TextField } from "@material-ui/core";
 import { seeYouSoon } from '../Images/contact/contactExport'
 import Credits from "../Components/Credits";
 
