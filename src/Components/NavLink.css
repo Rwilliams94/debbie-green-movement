@@ -1,0 +1,12 @@
+.navLink-list {
+    line-height: 40px;
+}
+
+.navLink-links {
+    text-decoration: none;
+    color: black;
+}
+
+.navLink-links:hover {
+    text-decoration: underline;
+}

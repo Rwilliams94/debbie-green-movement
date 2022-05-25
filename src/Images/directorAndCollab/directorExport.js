@@ -1,0 +1,17 @@
+export const break2011 = require('./jpgs/BREAK 2011.jpg').default
+export const curtains2020 = require('./jpgs/CURTAINS.jpg').default
+export const dancingBlue = require('./jpgs/DANCING FROM SERIES BLUE 2017.jpg').default
+export const despoliationDecimation = require('./jpgs/Despoliation Decimation Dessication.jpg').default
+export const kinesphere = require('./jpgs/KINESPHERE FROM THE SERIES FRIENDSHIP 2016.jpg').default
+export const proof8112 = require('./jpgs/proof_t.CEP_8112.JPG').default
+export const proof8200 = require('./jpgs/proof_t.CEP_8200.JPG').default
+export const rafting = require('./jpgs/RAFTING from A Square Foot of Sky.jpg').default
+export const sceneChange = require('./jpgs/SCENE CHANGE FROM CURTAINS 2020.jpg').default
+export const seems2021 = require('./jpgs/SEEMS 2021 - January 1.jpg').default
+export const seriesBlue = require('./jpgs/SERIES BLUE - June.jpg').default
+export const theWhiteRabbit = require(`./jpgs/THE WHITE RABBIT from Breaking Form_ Buz and Parkinson's.jpg`).default
+export const toeTheLine = require('./jpgs/TOE THE LINE from A Square Foot of Sky.jpg').default
+export const weddingSash = require('./jpgs/WEDDING SASH from A Square Foot of Sky.jpg').default
+export const squareFootCover = require('./jpgs/square_foot_book_cover.jpg').default
+export const squareFootAltCover = require('./jpgs/squareFootMainCover.jpg').default
+export const breakingFormCover = require('./jpgs/BreakingFormCover.jpg').default

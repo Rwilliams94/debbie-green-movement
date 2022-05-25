@@ -1,0 +1,64 @@
+.home-main {
+    z-index: 3;
+    position: relative;    
+    margin: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.home-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-title {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.welcome-title :hover {
+    color: azure;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+
+
+.welcome-title > h2 {
+    font-weight: 50;
+    font-size: 2.5rem;
+    color: rgb(71, 71, 71);
+}
+
+.welcome-title > h2 :hover {
+    font-weight: 50;
+    font-size: 2.5rem;
+    color: grey;
+}
+
+.home-copyright {
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright-link {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright-link > h4 {
+    text-align: center;
+    width: 190px;
+    background-color: rgba(134, 127, 127, 0.5);
+    font-family: arial;
+    font-weight: 200; 
+}

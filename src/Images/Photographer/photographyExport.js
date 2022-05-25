@@ -1,0 +1,47 @@
+export const yr1w18g = require('./jpgs/Yr1Walk18g.10760002.JPG').default
+export const yr1w21c = require('./jpgs/Yr1Walk21c.10760035.JPG').default
+export const yr1w22g = require('./jpgs/Yr1Walk22g.10740009.JPG').default
+export const yr1w46d = require('./jpgs/Yr1Walk46d.16110024.JPG').default
+export const yr2w110 = require('./jpgs/Yr2dw110.jpg').default
+export const yr2w264d = require('./jpgs/Yr2dw264d.jpg').default
+export const yr2w17 = require('./jpgs/Yr2Walk17.jpg').default
+export const yr2w36h = require('./jpgs/Yr2Walk36h.JPG').default
+export const yr2w71 = require('./jpgs/Yr2Walk71.jpg').default
+export const yr3w108 = require('./jpgs/Yr3dw108.JPG').default
+export const yr3w138l = require('./jpgs/Yr3dw138l.JPG').default
+export const yr3w2g = require('./jpgs/Yr3Walk2g.23230027.JPG').default
+export const yr3w80c = require('./jpgs/Yr3Walk80c.26170004.JPG').default
+export const yr41w101g = require('./jpgs/Yr4dw101g.48250006.JPG').default
+export const yr4w33e = require('./jpgs/Yr4Walk33e.26300030 RT.jpg').default
+export const yr4w37h = require('./jpgs/Yr4Walk37h.26310018.JPG').default
+export const yr6w12 = require('./jpgs/Yr6Walk12.jpg').default
+export const yr6w22 = require('./jpgs/Yr6Walk22.jpg').default
+export const yr6w29 = require('./jpgs/Yr6Walk29.jpg').default
+
+
+// chosen
+
+
+export const yr2w64h = require('./jpgs/Yr2Walk64h.22070029.JPG').default
+export const yr3w67j = require('./jpgs/Yr3Walk67j.26120007.JPG').default
+export const yr3w70e = require('./jpgs/Yr3Walk70e.26120032.JPG').default
+export const yr3w80b = require('./jpgs/Yr3Walk80b.26170003.JPG').default
+export const yr3w108n = require('./jpgs/Yr3dw108n.JPG').default
+export const yr4w50g = require('./jpgs/Yr4Walk50g.000043230020.jpg').default
+export const yr4w58i = require('./jpgs/Yr4Walks58i.000071360016.jpg').default
+export const yr5w26 = require('./jpgs/Yr5Walk26.jpg').default
+export const yr5w45 = require('./jpgs/Yr5Walk45.jpg').default
+export const yr5w70a = require('./jpgs/Yr5dw70aChipperfield15Jun11.60580021.JPG').default
+export const yr5w158b = require('./jpgs/Yr5dw158b.66890030.JPG').default
+export const yr5w54m = require('./jpgs/Yr5dw54m.60330015.JPG').default
+export const yr5w28 = require('./jpgs/Yr5Walk28.jpg').default
+export const yr5w36 = require('./jpgs/Yr5Walk36.jpg').default
+export const yr5w34d = require('./jpgs/Yr5Walks34d.000027080005.jpg').default
+export const yr6w79 = require('./jpgs/Yr6dw79.jpg').default
+export const yr7w123a = require('./jpgs/Yr7b&wdw123aOst28Sept13.15A_0016.jpg').default
+export const yr7w111e = require('./jpgs/Yr7dw111e.94190020.JPG').default
+export const yr7w61b = require('./jpgs/Yr7dw61b.90830029.JPG').default
+export const yr8w116c = require('./jpgs/Yr8dw116c.99710032.JPG').default
+export const yr8w54e = require('./jpgs/Yr8dw54e.97990033.JPG').default
+export const yr9w60a = require('./jpgs/Yr9dw60aOst29Jun15.06580003.JPG').default
+export const yr9w68c = require('./jpgs/Yr9dw68c.06610006.JPG').default

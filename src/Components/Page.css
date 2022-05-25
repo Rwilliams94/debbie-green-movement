@@ -1,0 +1,118 @@
+.page-main {
+    position: abolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 60px;
+    margin: none;
+    padding: 0;
+    max-width: 100%;
+}
+
+.page-background {
+    width: 100vw;
+    height: 100vh;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-content {
+    position: absolute;
+    top: 70vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+}
+
+.page-written {
+    display: flex;
+    width: 100%;
+    max-width: 1030px;
+    background-color: white;
+}
+
+
+.page-left {
+    width: 50%;
+    margin-top: 30px;
+    padding: 0 50px;
+    color: black;
+}
+
+.page-left > h1 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.page-left > p {
+    font-size: 0.85rem;
+    font-weight: 50;
+    line-height: 20px;
+} 
+
+.page-right {
+    width: 50%;
+    margin-top: 30px;
+    padding: 0 50px;
+    color: black;
+}
+
+.page-right > h1 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.page-right > p {
+    font-size: 0.85rem;
+    font-weight: 50;
+    line-height: 20px;
+} 
+
+.page-grid {
+    margin: 40px 0;
+    height: 90%;
+    width: 100vw;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1030px;
+    background-color: white;
+}
+
+/* mobile view */
+
+@media only screen and (max-width: 450px) {
+
+
+    .page-written {
+        flex-direction: column;
+    }
+
+    .page-left {
+        width: 80%;
+        padding: 0 30px;
+    }
+
+    .page-right {
+        width: 80%;
+        padding: 0 30px;
+    }
+}
+
+

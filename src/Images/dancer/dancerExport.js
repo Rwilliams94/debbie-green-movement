@@ -1,0 +1,10 @@
+export const backDrop = require('./jpgs/BACK DROP FROM CURTAINS 202 .jpg').default
+export const celebrating = require('./jpgs/CELEBRATING 12_12 from SERIES BLUE 2017.jpg').default
+export const inSuspense = require('./jpgs/IN SUSPENSE 3 in February from Curtains 2020.jpg').default
+export const lion = require('./jpgs/lion.jpg').default
+export const marchSeems = require('./jpgs/MARCH from SEEMS 2021 .jpg').default
+export const outTake = require('./jpgs/out-take_from_May_I_Have_the_Next_Dance.jpg').default
+export const synchronicity = require('./jpgs/SYCHRONICITY FROM THE SERIES FRIENDSHIP 2016 (1).jpg').default
+export const lyric14 = require('./jpgs/THE LYRIC I - number fourteen P2.jpg').default
+export const lyric1 = require(`./jpgs/THE LYRIC I number one FROM THE SERIES ANNE'S POEMS (1).jpg`).default
+export const pinFactory = require(`./jpgs/the_pin_factory.jpg`).default
