@@ -6,7 +6,7 @@ import {
   proof8200,
   despoliationDecimation,
   kinesphere,
-  seems2021,
+  seems2,
   seriesBlue,
   toeTheLine,
   curtains2020,
@@ -43,7 +43,7 @@ const CreativeDirector = () => {
       </p>
       <h4><i>A Square Foot of Sky 2021/2</i></h4>
       <img
-        className="breakingForm-book-image"
+        className="squareFoot-book-image"
         src={squareFootCover}
         alt="Square Foot of Sky Book Cover"
       />
@@ -180,7 +180,7 @@ const CreativeDirector = () => {
       },
       {
         title: "SEEMS 2021 © Clare Park",
-        image: seems2021,
+        image: seems2,
       },
 
 
