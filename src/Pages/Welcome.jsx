@@ -15,8 +15,9 @@ const Home = () => {
         Your browser does not support the video tag
       </video>
       <NavLink className="welcome-title large-font" exact to="/CreativeDirector">
-        <h2 className="thin">Debbie Green - Movement Artist</h2>
+        <h2 className="thin">Go To Site - Debbie Green Movement</h2>
       </NavLink>
+      <h2 className="thin">Debbie Green - Movement Artist</h2>
     </div>
   );
 };

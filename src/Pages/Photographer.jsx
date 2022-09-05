@@ -41,9 +41,8 @@ const Photographer = () => {
         following years of Walks without a Dog.
       </p>
       <p>
-        I now photograph with my Olympus OM2 on both walks and cycle rides. My
-        landscapes reflect how I see the world that day with a long lens and are
-        a combination of the wondrous and the mundane.
+        I now photograph with my Olympus OM2 and long lens on both walks and cycle rides. My
+        landscapes reflect how I see the world that day with my eye for form and movement.
       </p>
       <p>
         Over the years, my work has been published by London Independent

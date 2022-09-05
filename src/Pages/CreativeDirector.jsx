@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Page from "../Components/page";
 import { supporting } from "../Images/BreakingForm/breakingFormExport";
 import {
@@ -21,45 +22,54 @@ const CreativeDirector = () => {
   };
   const leftContent = (
     <>
-      <h4><i>Breaking Form: Re-Formed</i></h4>
+      <h4>
+        <i>Breaking Form: Re-Formed</i>
+      </h4>
       <img
         className="breakingForm-book-image"
         src={breakingFormCover}
         alt="Breaking Form Book Cover"
       />
       <p>
-        photography by Clare Park, design by Matilda Williams, was
-        self-published in 2019. It encompasses the series <i>‘Breaking Form: Buz
-        and Parkinson’s’</i> developed over two decades by Buz, my husband, Clare
-        and I, and ends with selected imagery Clare and I made from 2014 after
-        Buz’s death that reconnects with our previous work.
+        a book of personal writings and imagery. I am subject, muse and
+        collaborator in the imagery, and writer and co-creator of the content.
       </p>
-
+      <p>
+        photography by Clare Park, design by Matilda Williams, was
+        self-published in 2019.At its centre, is the photographic series{" "}
+        <i>‘Breaking Form: Buz and Parkinson’s’</i> developed over two decades
+        by Buz, my husband, Clare and I, and ends with selected imagery Clare
+        and I made from 2014 after Buz’s death that reconnects with our previous
+        work.
+      </p>
       <p>
         Buy now - email:{" "}
         <a href="mailto: clarepark@hotmail.com">clarepark@hotmail.com</a>..
         Paperback, 112 pages, 250x170mm, Printed by LD Print Ltd. £18.99
         (excluding postage)
       </p>
-      <h4><i>A Square Foot of Sky 2021/2</i></h4>
+      <h4>
+        <i>A Square Foot of Sky 2021/2</i>
+      </h4>
       <img
         className="squareFoot-book-image"
         src={squareFootCover}
         alt="Square Foot of Sky Book Cover"
       />
       <p>
-        self-published in May 2022, is a book of poetry and images, poetry by
-        Anne Gruenberg, photography by Clare Park, edited by Kelly Davis,
-        designed by Matilda Williams, with me as ‘The Dancer’. The Dancer is an
-        expressive conduit to Anne’s poetry of her experience of thirteen years
-        of incarceration in psychiatric institutions. Anne sourced the
-        ‘theatrical/archetypal’ red dress worn by The Dancer who is seen moving
-        in different landscapes with different props. This combination creates
-        the heightened reality and mythic quality redolent in each image. The
-        poems and images interact, text and photographs speaking to each other
-        in a unique way.
+        a book of poetry and photographic images, self-published in May 2022
+        with poetry by Anne Gruenberg, photography by Clare Park, edited by
+        Kelly Davis and designed by Matilda Williams. I conceived and am ‘The
+        Dancer’ in the photographs - expressive conduit to Anne’s poetry of her
+        experience of thirteen years of incarceration in psychiatric
+        institutions.
       </p>
-
+      <p>
+        Anne sourced the ‘theatrical/archetypal’ red dress worn by The Dancer
+        who is seen moving in different landscapes with different props. The
+        poems and mythic images interact, text and photographs speaking to each
+        other through the pages.
+      </p>
       <p>
         Buy now - email:{" "}
         <a href="mailto: clarepark@hotmail.com">clarepark@hotmail.com</a>.
@@ -71,62 +81,42 @@ const CreativeDirector = () => {
 
   const rightContent = (
     <>
-      <h1>Co-Creative Director & Collaborator</h1>
+      <h1>Co-Creator & Collaborator</h1>
       <p>
-        As a teacher, I have developed work in relation to other
-        tutors/practitioners even as I have taught alone. This encompasses
-        exploratory performance, dance and movement work I did with Sue Weston{" "}
-        <a
-          href="https://www.sueweston.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          (Relaxing the Mind)
-        </a>
-        , and long term with Vanessa Ewan at Royal Central School of Speech and
-        Drama including co-authoring{" "}
-        <i>Actor Movement: Expression of the Physical Being</i>, Bloomsbury,
-        2015.
+        I am a creative who works well with others. I have an experienced and
+        critical eye for movement as well as connection with silence, sound and
+        music having worked within a professional capacity both as a dancer and
+        choreographer. I have spent the last thirty years as teacher of Actor
+        Movement at Royal Central School of Speech & Drama, including
+        co-authoring <i>Actor Movement: Expression of the Physical Being</i>,
+        Bloomsbury, 2015.
       </p>
+      <h4>Consultancy</h4>
       <p>
-        Outside of teaching, since the early 80’s, has been my unique artistic
-        collaboration with friend and photographer{" "}
-        <a
-          href="https://www.clarepark.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Clare Park
-        </a>
+        for production movement support in theatre, film/TV or stills or
+        professional movement tutoring/coaching for actors, opera singers,
+        musicians – one to one or group please{" "}
+        <NavLink exact to="/Contact">
+          contact me
+        </NavLink>
       </p>
       <h4>Performative photographic collaboration:</h4>
       <p>
-        Clare and I have developed our work together over many years - she as
-        photographer and me as ‘subject’ - producing images for exhibition and
-        publication. We have produced the series: 16 Wonderful Women; Breaking
-        Form: Buz and Parkinson’s; Series Yellow; Friendship; Series Blue
-        (includes my own photographic landscapes within the montages);
-        W(h)arming; Curtains, Seems 2021 and 66/22.
+        Since the early 80’s, my work with photographer Clare Park has been my
+        artistic collaborative venture outside of teaching actors. Photographic
+        series produced:{" "}
+        <i>
+          16 Wonderful Women; Breaking Form: Buz and Parkinson’s; Series Yellow;
+          Friendship; Series Blue (includes my own photographic landscapes
+          within the montages); W(h)arming; Curtains, Seems 2021 and 66/22.
+        </i>
       </p>
-
+      <p>Images from each series have been exhibited and published.</p>
       <p>
-        Our images are autobiographical and theatrical, using props, recurring
-        themes and locations as we create our narratives often in response to
-        the zeitgeist. Each picture is the outcome of the high jinks of our
-        joint creativity as sole crew, hard graft and commitment to a
-        co-conceived objective with either one or both in front of the camera.
-      </p>
-      <h4>Consultation:</h4>
-      <p>
-        My work has the potential to take me into a consultative role within the
-        creative process of recorded, live and ensemble ‘theatre’ production.{" "}
-      </p>
-      <p>
-        Having worked within a professional capacity both as a dancer and
-        choreographer and then spent the last thirty years as teacher of Actor
-        Movement at Royal Central School of Speech & Drama, I have an
-        experienced and critical eye for movement as well as connection to
-        silence, sound and music.
+        With their use of props, recurring themes and locations, Clare’s photos
+        are the outcome of our joint creativity as sole crew, hard graft and
+        commitment to a co-conceived objective with either one or both in front
+        of the camera.
       </p>
     </>
   );
@@ -134,8 +124,9 @@ const CreativeDirector = () => {
     <>
       <p>
         Performative imagery in collaboration with{" "}
-        <b>photographer Clare Park</b>, from our <i>Breaking Form</i> work from 1990s onwards
-        and as The Dancer in <i>A Square Foot of Sky</i> project, 2021
+        <b>photographer Clare Park</b>, from our <i>Breaking Form</i> work from
+        1990s onwards and as The Dancer in <i>A Square Foot of Sky</i> project,
+        2021
       </p>
     </>
   );
@@ -182,8 +173,6 @@ const CreativeDirector = () => {
         title: "SEEMS 2021 © Clare Park",
         image: seems2,
       },
-
-
     ],
   };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Page from "../Components/page";
 import {
   backDrop,
@@ -22,40 +23,26 @@ const Dancer = () => {
     <>
       <h1>Dancer</h1>
       <p>
-        Dance has been an inspiration in my life. Ultimately, I am proud to call
-        myself a dancer and understand that my movement work, powered by dance,
-        has been my guide for my whole career. Trained in classical ballet,
-        although my body - my physical, mental and emotional capacity - were
-        perhaps more suited to contemporary dance, I have been in the privileged
-        position to experience other dance and movement forms. I felt as though
-        I was coming home into my body when I learnt Odissi with Sanjeevini
-        Dutta {" "}
-        <a
-          href="ttp://www.pulseconnects.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          (Pulse Connects, London)
-        </a>{" "}
-        and at the Odissi Research Centre in Bhubaneswar, Orissa, after many
-        years of working ‘en pointe’. I began to choreograph for theatre and
-        commercials. I continued with my explorations of dance and movement with
-        Sue Weston {" "}
-        <a
-          href="https://www.sueweston.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          (Relaxing the Mind)
-        </a>{" "}
-        and I gained my MA in Movement Studies at Laban.
+        I am an ex-professional dancer. Dance has been an inspiration in my
+        life. Trained in classical ballet (Rambert School of Ballet) and having
+        danced professionally, I went on to explore other dance and movement
+        forms throughout my career. In the 1980s, I became a choreographer for
+        theatre, film, TV commercials and video promos. I gained my MA in
+        Movement Studies at Laban Centre for Movement and Dance prior to my work
+        in teaching movement for actors.
       </p>
       <p>
-        By acknowledging that I possess a spirit of dance, I do so in
-        recognition that also technique and self-awareness are pre-requisite.
-        The latter, I need to maintain appropriately as my body ages. I can look
+        As the dancer progresses through the years and experiences her body
+        differently technique and self-awareness are pre-requisite. I can look
         to the younger generation of dance artists, and continue that love for
         dance, as well as offer my own experience and inner connection to it.
+      </p>
+      <p>
+        I am interested in participating in new dance projects. For dancer work
+        enquiries please{" "}
+        <NavLink exact to="/Contact">
+          contact me
+        </NavLink>
       </p>
     </>
   );
