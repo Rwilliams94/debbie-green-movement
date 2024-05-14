@@ -1,4 +1,4 @@
-import Home from "./Pages/Welcome";
+import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import ActorMovement from "./Pages/ActorMovement";
 import CreativeDirector from "./Pages/CreativeDirector";
@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App">
       {/* Main pages */}
-      <Switch>
-        <Route exact path="/">
+      {/* <Switch> */}
+        {/* <Route exact path="/">
           <Redirect to="/home" />
         </Route>
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/home" component={Home} /> */}
         <Route>
-          <NavBar homeColour={"light"} colour={"light"} />
+          <NavBar homeColour={"dark"} colour={"dark"} />
           <Route
             render={({ location }) => (
               <TransitionGroup>
@@ -31,6 +31,7 @@ function App() {
                 >
                   <Switch>
                     {/* Project pages */}
+                    <Route exact path="/home" component={Home} />
 
                     <Route
                       exact
@@ -60,7 +61,7 @@ function App() {
             )}
           />
         </Route>
-      </Switch>
+      {/* </Switch> */}
     </div>
   );
 }
