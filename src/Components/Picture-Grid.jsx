@@ -7,7 +7,7 @@ const PictureGrid = ({ pictures, links, titles }) => {
   if (!pictures) return <></>;
   return (
     <>
-      <Grid container spacing={3} justify="center">
+      <Grid container spacing={3} justifyContent="center">
         {links
           ? pictures.map((picture) => (
               <Grid item key={picture.title}>
