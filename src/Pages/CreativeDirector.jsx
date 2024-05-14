@@ -31,14 +31,14 @@ const CreativeDirector = () => {
         alt="Breaking Form Book Cover"
       />
       <p>
-        a book of personal writings and imagery. I am subject, muse and
-        collaborator in the imagery, and writer and co-creator of the content.
+        A book of personal writings and imagery. I am subject, muse and
+        collaborator in the imagery, co-writer and co-creator of the content.
       </p>
       <p>
-        photography by Clare Park, design by Matilda Williams, was
-        self-published in 2019.At its centre, is the photographic series{" "}
+        Photography by Clare Park, design by Matilda Williams,
+        self-published in 2019. At its centre, is the photographic series{" "}
         <i>‘Breaking Form: Buz and Parkinson’s’</i> developed over two decades
-        by Buz, my husband, Clare and I, and ends with selected imagery Clare
+        by Clare, Buz, my husband, and I, and ends with selected imagery Clare
         and I made from 2014 after Buz’s death that reconnects with our previous
         work.
       </p>
@@ -57,7 +57,7 @@ const CreativeDirector = () => {
         alt="Square Foot of Sky Book Cover"
       />
       <p>
-        a book of poetry and photographic images, self-published in May 2022
+        A book of poetry and photographic images, self-published in May 2022
         with poetry by Anne Gruenberg, photography by Clare Park, edited by
         Kelly Davis and designed by Matilda Williams. I conceived and am ‘The
         Dancer’ in the photographs - expressive conduit to Anne’s poetry of her
@@ -95,7 +95,7 @@ const CreativeDirector = () => {
       <p>
         for production movement support in theatre, film/TV or stills or
         professional movement tutoring/coaching for actors, opera singers,
-        musicians – one to one or group please{" "}
+        musicians – one to one or group - please{" "}
         <NavLink exact to="/Contact">
           contact me
         </NavLink>
