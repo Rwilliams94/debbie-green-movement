@@ -1,8 +1,10 @@
 .main-news-block {
     display: flex;
-    flex-direction: column; /* Display children in a column */
+    flex-direction: row; /* Display children in a column */
     align-items: flex-start;
     margin-bottom: 20px;
+    margin-top: 30px;
+    max-width: 1000px;
   }
   
   .title-news-block {
@@ -13,7 +15,9 @@
   
   .content-news-block {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
   }
   
   .picture-news-block {
@@ -21,7 +25,8 @@
   }
   
   .picture-news-block img {
-    max-width: 100px; /* Adjust the maximum width of the picture as needed */
+    max-width: 250px;
+    padding: 1px 5px;
   }
   
   .text-news-block {

@@ -20,7 +20,7 @@ function App() {
         </Route>
         <Route exact path="/home" component={Home} /> */}
         <Route>
-          <NavBar homeColour={"dark"} colour={"dark"} />
+          <NavBar homeColour={"light"} colour={"light"} />
           <Route
             render={({ location }) => (
               <TransitionGroup>

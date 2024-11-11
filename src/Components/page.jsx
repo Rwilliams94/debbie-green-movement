@@ -7,8 +7,8 @@ import Footer from "./Footer";
 
 const Page = ({
   backgroundImage,
-  leftContent,
   rightContent,
+  leftContent,
   photoContent,
   footerContent,
   creditContent,
@@ -25,8 +25,8 @@ const Page = ({
       />
       <div className="page-content">
         <div className="page-written">
-          <div className="page-right">{rightContent}</div>
           <div className="page-left">{leftContent}</div>
+          <div className="page-right">{rightContent}</div>
         </div>
         <div className="page-grid">
           {photoContent ? (
@@ -41,7 +41,7 @@ const Page = ({
         </div>
         <div className="page-footer">
           <Footer content={footerContent} />
-          <Credits content={creditContent}/>
+          <Credits content={creditContent} />
         </div>
       </div>
     </div>

@@ -1,13 +1,15 @@
 import React from "react";
+import "./Home.css";
 import NewsBlock from "../Components/NewsBlock";
-import { supporting } from "../Images/BreakingForm/breakingFormExport";
+import { supporting, beyondReach } from "../Images/BreakingForm/breakingFormExport";
+import { marchSeems, outTake } from "../Images/dancer/dancerExport";
 import Credits from "../Components/Credits";
 import Footer from "../Components/Footer";
-import { film } from "../Images/about/aboutExport";
+// import { film } from "../Images/about/aboutExport";
 
 const Home = () => {
   const backgroundImage = {
-    image: supporting,
+    image: marchSeems,
     position: "0px",
   };
   const footerContent = (
@@ -42,32 +44,36 @@ const Home = () => {
   )
 
   return (
-    <div className="page-main">
+    <div className="home-main">
       <div
-        className="page-background"
+        className="home-background"
         style={{
           backgroundImage: "url(" + backgroundImage.image + ")",
           backgroundPosition: "center " + backgroundImage.position,
           backgroundSize: "1000px",
         }}
       />
-      <div className="page-content">
-        <div className="home-main">
-            <video loop autoPlay={true} muted controls className="home-video">
-                <source
-                src={film}
-                type="video/mp4"
-                />
-                Your browser does not support the video tag
-            </video>
-        </div>
-        <div className="page-written">
+      <div className="home-content">
+        <div className="home-written">
             <NewsBlock 
                 title="Testing Title"
-                pictureSrc={backgroundImage}
+                pictureSrc={outTake}
                 content={boxContent}
 
             />
+            <NewsBlock 
+                title="Testing Title"
+                pictureSrc={supporting}
+                content={boxContent}
+
+            />
+            <NewsBlock 
+                title="Testing Title"
+                pictureSrc={marchSeems}
+                content={boxContent}
+
+            />
+
         </div>
         <div className="page-footer">
           <Footer content={footerContent} />
@@ -79,3 +85,14 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// {/* <div className="home-main">
+//     <video loop autoPlay={true} muted controls className="home-video">
+//         <source
+//         src={film}
+//         type="video/mp4"
+//         />
+//         Your browser does not support the video tag
+//     </video>
+// </div> */}

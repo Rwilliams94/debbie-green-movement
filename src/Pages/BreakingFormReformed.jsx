@@ -5,10 +5,10 @@ import Page from "../Components/page";
 const BreakingForm = () => {
   const backgroundImage = {
     image:
-    'https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg',
+      'https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg',
     position: "0px",
   };
-  const leftContent = (
+  const rightContent = (
     <>
       <img
         className="breakingForm-book-image"
@@ -21,7 +21,7 @@ const BreakingForm = () => {
       <h4>2019</h4>
     </>
   );
-  const rightContent = (
+  const leftContent = (
     <>
       <h1>Breaking Form: Re-Formed</h1>
       <p>
@@ -79,22 +79,22 @@ const BreakingForm = () => {
       {
         title: "Hold On To Your Hat © Clare Park",
         image:
-        "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/HOLD_ON_TO_YOUR_HAT_out-take_1_lmhyax.jpg",
+          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/HOLD_ON_TO_YOUR_HAT_out-take_1_lmhyax.jpg",
       },
       {
         title: "The White Rabbit © Clare Park",
         image:
-        "https://res.cloudinary.com/dahzswwzk/image/upload/v1637093496/THE_WHITE_RABBIT_from_Breaking_Form__Buz_and_Parkinson_s_cxk1db.jpg",
+          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637093496/THE_WHITE_RABBIT_from_Breaking_Form__Buz_and_Parkinson_s_cxk1db.jpg",
       },
       {
         title: "Beyond Reach from series Yellow © Clare Park",
         image:
-        "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg",
+          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg",
       },
       {
         title: "Supporting from series Blue 2021 © Clare Park",
         image:
-        "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/SUPPORTING_FROM_SERIES_BLUE_2017_vp4jwc.jpg",
+          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/SUPPORTING_FROM_SERIES_BLUE_2017_vp4jwc.jpg",
       },
     ]
   };
@@ -105,8 +105,8 @@ const BreakingForm = () => {
       homeColour={"dark"}
       pageColour={"dark"}
       backgroundImage={backgroundImage}
-      leftContent={leftContent}
       rightContent={rightContent}
+      leftContent={leftContent}
       photoContent={photoContent}
       footerContent={null}
     />
