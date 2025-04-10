@@ -19,7 +19,7 @@ const Dancer = () => {
     image: pinFactory,
     position: "0px",
   };
-  const rightContent = (
+  const leftContent = (
     <>
       <h1>Dancer</h1>
       <p>
@@ -112,8 +112,8 @@ const Dancer = () => {
       homeColour="light"
       pageColour="light"
       backgroundImage={backgroundImage}
-      leftContent={null}
-      rightContent={rightContent}
+      rightContent={null}
+      leftContent={leftContent}
       photoContent={photoContent}
       photoLinks={null}
       footerContent={footerContent}

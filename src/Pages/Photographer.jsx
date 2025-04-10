@@ -31,7 +31,7 @@ const Photographer = () => {
     image: yr3w108,
     position: "0px",
   };
-  const leftContent = (
+  const rightContent = (
     <>
       <h1>(Avocational) Photographer</h1>
       <p>
@@ -153,8 +153,8 @@ const Photographer = () => {
       homeColour="light"
       pageColour="light"
       backgroundImage={backgroundImage}
-      leftContent={leftContent}
-      rightContent={null}
+      rightContent={rightContent}
+      leftContent={null}
       photoContent={photoContent}
       photoLinks={null}
       footerContent={null}

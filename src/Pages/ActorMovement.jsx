@@ -10,7 +10,7 @@ const ActorMovement = () => {
     image: books,
     position: "-0px",
   };
-  const leftContent = (
+  const rightContent = (
     <>
       <img
         className="actorMovement-book-image"
@@ -20,7 +20,7 @@ const ActorMovement = () => {
     </>
   );
 
-  const rightContent = (
+  const leftContent = (
     <>
       <h1>Actor Movement Specialist</h1>
       <p>
@@ -81,8 +81,8 @@ const ActorMovement = () => {
       homeColour={"light"}
       pageColour={"light"}
       backgroundImage={backgroundImage}
-      leftContent={leftContent}
       rightContent={rightContent}
+      leftContent={leftContent}
       photoContent={null}
       footerContent={null}
       creditContent={creditContent}

@@ -1,0 +1,35 @@
+.main-news-block {
+    display: flex;
+    flex-direction: row; /* Display children in a column */
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    max-width: 1000px;
+  }
+  
+  .title-news-block {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+  }
+  
+  .content-news-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .picture-news-block {
+    margin-right: 20px;
+  }
+  
+  .picture-news-block img {
+    max-width: 250px;
+    padding: 1px 5px;
+  }
+  
+  .text-news-block {
+    font-size: 16px;
+  }
+  

@@ -58,7 +58,7 @@
     margin-right: 20px;
     width: 70vw;
     max-width: 650px;
-    height: 10vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -132,13 +132,19 @@
 
 
 .navbar-item {
+    height: 3.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     letter-spacing: 0.5px;
     -webkit-transition: .5s;
     transition: ease-in .5s;
     cursor: pointer;
+    padding: 1px 10px;
+    border-radius: 8px;
 }
 
 .navbar-item-pages {
@@ -152,9 +158,10 @@
 }
 
 .navbar-item:hover {
-    text-decoration: underline;
-    -webkit-transition: .5s;
-    transition: ease-out .5s;
+    background-color: rgba(61, 61, 61, 0.7);
+    /* text-decoration: underline; */
+    -webkit-transition: .2s;
+    transition: ease-out .2s;
 }
 
 .hide-title {

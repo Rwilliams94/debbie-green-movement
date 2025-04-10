@@ -20,7 +20,50 @@ const CreativeDirector = () => {
     image: supporting,
     position: "0px",
   };
+
   const leftContent = (
+    <>
+      <h1>Co-Creator & Collaborator</h1>
+      <p>
+        I am a creative who works well with others. I have an experienced and
+        critical eye for movement as well as connection with silence, sound and
+        music having worked within a professional capacity both as a dancer and
+        choreographer. I have spent the last thirty years as teacher of Actor
+        Movement at Royal Central School of Speech & Drama, including
+        co-authoring <i>Actor Movement: Expression of the Physical Being</i>,
+        Bloomsbury, 2015.
+      </p>
+      <h4>Consultancy</h4>
+      <p>
+        for production movement support in theatre, film/TV or stills or
+        professional movement tutoring/coaching for actors, opera singers,
+        musicians – one to one or group - please{" "}
+        <NavLink exact to="/Contact">
+          contact me
+        </NavLink>
+      </p>
+      <h4>Performative photographic collaboration:</h4>
+      <p>
+        Since the early 80’s, my work with photographer Clare Park has been my
+        artistic collaborative venture outside of teaching actors. Photographic
+        series produced:{" "}
+        <i>
+          16 Wonderful Women; Breaking Form: Buz and Parkinson’s; Series Yellow;
+          Friendship; Series Blue (includes my own photographic landscapes
+          within the montages); W(h)arming; Curtains, Seems 2021 and 66/22.
+        </i>
+      </p>
+      <p>Images from each series have been exhibited and published.</p>
+      <p>
+        With their use of props, recurring themes and locations, Clare’s photos
+        are the outcome of our joint creativity as sole crew, hard graft and
+        commitment to a co-conceived objective with either one or both in front
+        of the camera.
+      </p>
+    </>
+  );
+  
+  const rightContent = (
     <>
       <h4>
         <i>Breaking Form: Re-Formed</i>
@@ -79,47 +122,6 @@ const CreativeDirector = () => {
     </>
   );
 
-  const rightContent = (
-    <>
-      <h1>Co-Creator & Collaborator</h1>
-      <p>
-        I am a creative who works well with others. I have an experienced and
-        critical eye for movement as well as connection with silence, sound and
-        music having worked within a professional capacity both as a dancer and
-        choreographer. I have spent the last thirty years as teacher of Actor
-        Movement at Royal Central School of Speech & Drama, including
-        co-authoring <i>Actor Movement: Expression of the Physical Being</i>,
-        Bloomsbury, 2015.
-      </p>
-      <h4>Consultancy</h4>
-      <p>
-        for production movement support in theatre, film/TV or stills or
-        professional movement tutoring/coaching for actors, opera singers,
-        musicians – one to one or group - please{" "}
-        <NavLink exact to="/Contact">
-          contact me
-        </NavLink>
-      </p>
-      <h4>Performative photographic collaboration:</h4>
-      <p>
-        Since the early 80’s, my work with photographer Clare Park has been my
-        artistic collaborative venture outside of teaching actors. Photographic
-        series produced:{" "}
-        <i>
-          16 Wonderful Women; Breaking Form: Buz and Parkinson’s; Series Yellow;
-          Friendship; Series Blue (includes my own photographic landscapes
-          within the montages); W(h)arming; Curtains, Seems 2021 and 66/22.
-        </i>
-      </p>
-      <p>Images from each series have been exhibited and published.</p>
-      <p>
-        With their use of props, recurring themes and locations, Clare’s photos
-        are the outcome of our joint creativity as sole crew, hard graft and
-        commitment to a co-conceived objective with either one or both in front
-        of the camera.
-      </p>
-    </>
-  );
   const footerContent = (
     <>
       <p>
@@ -182,8 +184,8 @@ const CreativeDirector = () => {
       homeColour={"light"}
       pageColour={"light"}
       backgroundImage={backgroundImage}
-      leftContent={leftContent}
       rightContent={rightContent}
+      leftContent={leftContent}
       photoContent={photoContent}
       photoLinks={null}
       footerContent={footerContent}
