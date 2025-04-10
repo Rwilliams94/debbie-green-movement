@@ -3,6 +3,7 @@ import "../Styles/Home.css";
 import NewsBlock from "../Components/NewsBlock";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems} from "../Images/dancer/dancerExport";
+import { headshot} from "../Images/directorAndCollab/directorExport";
 import { musicAndBeing1, theLyric} from "../Images/work/workExport";
 import Credits from "../Components/Credits";
 import Footer from "../Components/Footer";
@@ -28,6 +29,19 @@ const Home = () => {
       <p> Website by Rowan Williams </p>
     </>
   );
+
+  const pushingBoundariesContent = (
+    <>
+      <p>
+        Debbie is one of fifteen 50+yrs dancers accepted for ‘Pushing Boundaries’, 
+        an Encore East ACE funded dance research residency with choreographer Galit Liss 
+        at University of Chichester Campus, 20th - 24th May 2026. The dancers will present 
+        a performative work process developed during the residency at the 
+        ‘What Dance Can Do’ Galit Liss symposium at the University of Chichester, 24th May 2026.
+      </p>
+      <p> Photography © Clare Park </p>
+    </>
+  )  
   
   const musicBeingContent = (
     <>
@@ -94,10 +108,14 @@ const Home = () => {
         <div className="home-written">
         <h2>Latest Projects</h2>
             <NewsBlock 
+                title="Pushing Boundaries"
+                pictureSrc={headshot}
+                content={pushingBoundariesContent}
+            />
+            <NewsBlock 
                 title="Music and Being Collective"
                 pictureSrc={musicAndBeing1}
                 content={musicBeingContent}
-
             />
             <NewsBlock 
                 title="Breaking Form: Re-Formed"
