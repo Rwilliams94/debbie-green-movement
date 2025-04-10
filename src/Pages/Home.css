@@ -1,0 +1,41 @@
+.home-main {
+    position: abolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 60px;
+    margin: none;
+    padding: 0;
+    max-width: 100%;
+}
+
+.home-background {
+    width: 100vw;
+    height: 100vh;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.home-content {
+    position: absolute;
+    top: 70vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+}
+
+.home-written {
+    max-width: 10x;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
