@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "../Styles/Home.css";
 import NewsBlock from "../Components/NewsBlock";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems} from "../Images/dancer/dancerExport";
