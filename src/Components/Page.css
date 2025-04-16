@@ -19,7 +19,7 @@
 
 .page-content {
     position: absolute;
-    top: 70vh;
+    top: 90vh;
     z-index: 1;
     display: flex;
     justify-content: center;

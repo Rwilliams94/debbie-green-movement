@@ -20,7 +20,7 @@
 
 .home-content {
     position: absolute;
-    top: 70vh;
+    top: 90vh;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -38,4 +38,26 @@
     justify-content: center;
     width: 100%;
     background-color: white;
+}
+
+
+
+/* mobile view */
+
+@media only screen and (max-width: 450px) {
+
+
+    .home-written {
+        flex-direction: column;
+    }
+
+    /* .page-right {
+        width: 80%;
+        padding: 0 30px;
+    }
+
+    .page-left {
+        width: 80%;
+        padding: 0 30px;
+    } */
 }

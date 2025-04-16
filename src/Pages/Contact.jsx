@@ -7,7 +7,7 @@ import Credits from "../Components/Credits";
 
 const creditContent = (
   <>
-    <p> Photography © Clare Park </p>
+    <p> Photograph © Clare Park </p>
     <p> Website by Rowan Williams </p>
   </>
 );

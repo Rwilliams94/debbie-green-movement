@@ -2,8 +2,10 @@ import React from "react";
 import "./PictureGrid.css";
 import Grid from "@material-ui/core/Grid";
 import { NavLink } from "react-router-dom";
+import { usePopup } from '../PopupContext';
 
 const PictureGrid = ({ pictures, links, titles }) => {
+  const { openPopup } = usePopup();
   if (!pictures) return <></>;
   return (
     <>
@@ -22,6 +24,8 @@ const PictureGrid = ({ pictures, links, titles }) => {
                       className="grid-image"
                       src={picture.image}
                       alt={picture.title}
+                      style={{ cursor: 'pointer' }}
+                      onClick={() => openPopup(picture.image)}
                     />
                     <div className="grid-title">
                       <h5>{picture.title}</h5>
@@ -37,6 +41,8 @@ const PictureGrid = ({ pictures, links, titles }) => {
                     className="grid-image"
                     src={picture.image}
                     alt={picture.title}
+                    style={{ cursor: 'pointer' }}
+                    onClick={() => openPopup(picture.image)}
                   />
                   {titles ? (
                     <div className="grid-title">
