@@ -1,19 +1,24 @@
 import React from "react";
 import Page from "../Components/page";
+import { usePopup } from '../PopupContext';
 
 
 const BreakingForm = () => {
+  const { openPopup } = usePopup();
   const backgroundImage = {
     image:
       'https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg',
     position: "0px",
   };
+  const imageSource = "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BOOK_web_m2uquz.jpg"
   const rightContent = (
     <>
       <img
         className="breakingForm-book-image"
-        src="https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BOOK_web_m2uquz.jpg"
+        src={imageSource}
         alt="Breaking Form Book Cover"
+        style={{ cursor: 'pointer' }}
+        onClick={() => openPopup(imageSource)}
       />
       <h4>Performative photographic collaboration</h4>
       <h4>Photography © Clare Park</h4>

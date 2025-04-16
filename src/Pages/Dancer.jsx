@@ -51,7 +51,7 @@ const Dancer = () => {
       <p>
         Performative imagery in collaboration with{" "}
         <b>photographer Clare Park</b>, from our <i>Breaking Form</i> work from
-        1990s onwards and as The Dancer in <i>A Square Foot of Sky</i> project,
+        1990s onwards and <i>A Square Foot of Sky</i> project,
         2021
       </p>
     </>

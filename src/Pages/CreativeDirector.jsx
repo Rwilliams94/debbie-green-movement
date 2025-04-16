@@ -14,8 +14,10 @@ import {
   squareFootCover,
   breakingFormCover,
 } from "../Images/directorAndCollab/directorExport";
+import { usePopup } from '../PopupContext';
 
 const CreativeDirector = () => {
+  const { openPopup } = usePopup();
   const backgroundImage = {
     image: supporting,
     position: "0px",
@@ -27,8 +29,8 @@ const CreativeDirector = () => {
       <p>
         I am a creative who works well with others. I have an experienced and
         critical eye for movement as well as connection with silence, sound and
-        music having worked within a professional capacity both as a dancer and
-        choreographer. I have spent the last thirty years as teacher of Actor
+        music having worked within a professional capacity both as both dancer 
+        and choreographer. I spent thirty years as teacher of Actor
         Movement at Royal Central School of Speech & Drama, including
         co-authoring <i>Actor Movement: Expression of the Physical Being</i>,
         Bloomsbury, 2015.
@@ -72,6 +74,8 @@ const CreativeDirector = () => {
         className="breakingForm-book-image"
         src={breakingFormCover}
         alt="Breaking Form Book Cover"
+        style={{ cursor: 'pointer' }}
+        onClick={() => openPopup(breakingFormCover)}
       />
       <p>
         A book of personal writings and imagery. I am subject, muse and
@@ -98,6 +102,8 @@ const CreativeDirector = () => {
         className="squareFoot-book-image"
         src={squareFootCover}
         alt="Square Foot of Sky Book Cover"
+        style={{ cursor: 'pointer' }}
+        onClick={() => openPopup(squareFootCover)}
       />
       <p>
         A book of poetry and photographic images, self-published in May 2022
@@ -127,7 +133,7 @@ const CreativeDirector = () => {
       <p>
         Performative imagery in collaboration with{" "}
         <b>photographer Clare Park</b>, from our <i>Breaking Form</i> work from
-        1990s onwards and as The Dancer in <i>A Square Foot of Sky</i> project,
+        1990s onwards and <i>A Square Foot of Sky</i> project,
         2021
       </p>
     </>

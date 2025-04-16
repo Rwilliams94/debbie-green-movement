@@ -4,8 +4,10 @@ import {
   books,
   actorMovementCover,
 } from "../Images/actorMovement/actorMovementExport";
+import { usePopup } from '../PopupContext';
 
 const ActorMovement = () => {
+  const { openPopup } = usePopup();
   const backgroundImage = {
     image: books,
     position: "-0px",
@@ -16,6 +18,8 @@ const ActorMovement = () => {
         className="actorMovement-book-image"
         src={actorMovementCover}
         alt="Actor Movement Book Cover"
+        style={{ cursor: 'pointer' }}
+        onClick={() => openPopup(actorMovementCover)}
       />
     </>
   );
