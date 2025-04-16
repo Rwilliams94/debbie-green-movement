@@ -152,7 +152,7 @@ const Home = () => {
             title={`"I turned and looked" - a Music and Being project:`}
             pictureSrc={iTurnedAndLooked}
             content={brantwoodContent}
-            direction="reverse"
+            // direction="reverse"
           />
           <NewsBlock
             title="Music and Being Collective"
@@ -163,7 +163,7 @@ const Home = () => {
             title="Breaking Form: Re-Formed"
             pictureSrc={beyondReach}
             content={breakingFormContent}
-            direction="reverse"
+            // direction="reverse"
           />
           <NewsBlock
             title={`The Lyric "I"`}
