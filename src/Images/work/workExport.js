@@ -6,3 +6,4 @@ export const creativeDirector = require('./SUPPORTING FROM SERIES BLUE 2017.jpg'
 export const theLyric = require(`./THE_LYRIC_I_number_one_FROM_THE_SERIES_ANNES_POEMS.jpg`)
 export const musicAndBeing1 = require(`./MusicAndBeing1.jpg`)
 export const musicAndBeing2 = require(`./MusicAndBeing2.jpg`)
+export const iTurnedAndLooked = require(`./I_turned_and_looked.jpg`)

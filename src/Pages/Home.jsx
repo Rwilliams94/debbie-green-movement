@@ -4,7 +4,7 @@ import NewsBlock from "../Components/NewsBlock";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems } from "../Images/dancer/dancerExport";
 import { headshot } from "../Images/directorAndCollab/directorExport";
-import { musicAndBeing1, theLyric } from "../Images/work/workExport";
+import { musicAndBeing1, theLyric, iTurnedAndLooked } from "../Images/work/workExport";
 import Credits from "../Components/Credits";
 import Footer from "../Components/Footer";
 
@@ -150,7 +150,7 @@ const Home = () => {
           />
           <NewsBlock
             title={`"I turned and looked" - a Music and Being project:`}
-            pictureSrc={headshot}
+            pictureSrc={iTurnedAndLooked}
             content={brantwoodContent}
             direction="reverse"
           />

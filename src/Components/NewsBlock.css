@@ -1,9 +1,10 @@
 .main-news-block {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     margin-top: 40px;
     max-width: 1000px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .normal-news-block {
