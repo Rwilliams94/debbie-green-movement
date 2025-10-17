@@ -21,11 +21,16 @@
     "video-react": "^0.15.0",
     "web-vitals": "^1.1.2"
   },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.9.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js",
+    "optimize-images": "node scripts/optimize-images.js"
   },
   "eslintConfig": {
     "extends": [
