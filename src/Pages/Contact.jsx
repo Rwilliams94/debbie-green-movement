@@ -5,6 +5,11 @@ import { seeYouSoon } from "../Images/contact/contactExport";
 import { send } from "emailjs-com";
 import Credits from "../Components/Credits";
 
+// Note: Create a .env file in the root directory with:
+// REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+// REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id  
+// REACT_APP_EMAILJS_USER_ID=your_user_id
+
 const creditContent = (
   <>
     <p> Photograph © Clare Park </p>
@@ -19,19 +24,37 @@ const Contact = () => {
     reply_to: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    send("service_9htj9pu", "template_g7j75jq", toSend, "NMFjDxmyJEJpKt2bg");
-    setToSend({
-      from_name: "",
-      reply_to: "",
-      message: "",
-    });
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      await send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        toSend,
+        process.env.REACT_APP_EMAILJS_USER_ID
+      );
+
+      setSubmitStatus('success');
+      setToSend({
+        from_name: "",
+        reply_to: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error('Email send failed:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e) => {
-    console.log(toSend);
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
@@ -88,11 +111,34 @@ const Contact = () => {
               variant="contained"
               color="primary"
               size="large"
+              disabled={isSubmitting}
             >
-              SEND
+              {isSubmitting ? 'SENDING...' : 'SEND'}
             </Button>
           ) : (
             <></>
+          )}
+
+          {submitStatus === 'success' && (
+            <div style={{
+              color: 'green',
+              marginTop: '10px',
+              textAlign: 'center',
+              fontWeight: 'bold'
+            }}>
+              ✅ Message sent successfully!
+            </div>
+          )}
+
+          {submitStatus === 'error' && (
+            <div style={{
+              color: 'red',
+              marginTop: '10px',
+              textAlign: 'center',
+              fontWeight: 'bold'
+            }}>
+              ❌ Failed to send message. Please try again.
+            </div>
           )}
         </form>
         <Credits content={creditContent} />
