@@ -1,5 +1,5 @@
 
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext, useMemo } from 'react';
 
 const PopupContext = createContext();
 
@@ -9,8 +9,14 @@ export function PopupProvider({ children }) {
   const openPopup = (src) => setImageSrc(src);
   const closePopup = () => setImageSrc(null);
 
+  const contextValue = useMemo(() => ({
+    imageSrc,
+    openPopup,
+    closePopup
+  }), [imageSrc]);
+
   return (
-    <PopupContext.Provider value={{ imageSrc, openPopup, closePopup }}>
+    <PopupContext.Provider value={contextValue}>
       {children}
       {imageSrc && (
         <div style={overlayStyles} onClick={closePopup}>
