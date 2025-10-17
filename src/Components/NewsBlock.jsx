@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { memo } from 'react';
 import './NewsBlock.css';
 import { usePopup } from '../PopupContext';
 import LazyImage from './LazyImage';
 
 
-const NewsBlock = ({ title, pictureSrc, content, direction = "line" }) => {
+const NewsBlock = memo(({ title, pictureSrc, content, direction = "line" }) => {
     const { openPopup } = usePopup();
     return (
         <div className={
@@ -38,5 +38,5 @@ const NewsBlock = ({ title, pictureSrc, content, direction = "line" }) => {
             </div>
         </div>
     );
-};
+});
 export default NewsBlock;
