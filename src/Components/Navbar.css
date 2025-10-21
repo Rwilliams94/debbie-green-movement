@@ -30,7 +30,7 @@
 }
 
 .med-font {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .left-margin {
@@ -50,8 +50,10 @@
     transition: .3s;
 }
 
-.navbar-item-pages > h2 {
+.navbar-item-pages>h2 {
     font-weight: 100;
+    font-size: 0.85rem;
+    color: #111;
 }
 
 .navbar-list-pages {
@@ -145,11 +147,12 @@
     cursor: pointer;
     padding: 1px 10px;
     border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar-item-pages {
     font-size: 0.8rem;
-    color: whitesmoke;
+    color: #111;
     text-decoration: none;
     letter-spacing: 0.5px;
     -webkit-transition: .5s;
@@ -162,6 +165,14 @@
     /* text-decoration: underline; */
     -webkit-transition: .2s;
     transition: ease-out .2s;
+}
+
+/* Ensure link text turns light on hover for readability */
+.navbar-item-pages:hover,
+.navbar-item-pages:hover h2,
+.navbar-item:hover .navbar-item-pages,
+.navbar-item:hover .navbar-item-pages h2 {
+    color: whitesmoke;
 }
 
 .hide-title {

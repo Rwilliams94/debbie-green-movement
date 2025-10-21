@@ -40,6 +40,17 @@ const Home = () => {
   const brantwoodContent = (
     <>
       <p>
+        For summer 2026.
+      </p>
+      <p>
+        An immersive and interdisciplinary album experience exploring the cycle of birth,
+        life and death in an endlessly complex world.
+      </p>
+      <p>
+        In early 2024, at Brantwood, Coniston Water, Cumbria, the project took shape, with
+        Johannes Brahms’ Vier Ernste Gesänge (Four Serious Songs) at its musical starting point.
+      </p>
+      <p>
         An immersive and interdisciplinary album experience exploring the cycle of birth,
         life and death in an endlessly complex world.
       </p>
@@ -144,14 +155,14 @@ const Home = () => {
         <div className="home-written">
           <h2>Latest Projects</h2>
           <NewsBlock
-            title="Pushing Boundaries"
-            pictureSrc={headshot}
-            content={pushingBoundariesContent}
-          />
-          <NewsBlock
             title={`"I turned and looked" - a Music and Being project:`}
             pictureSrc={iTurnedAndLooked}
             content={brantwoodContent}
+          />
+          <NewsBlock
+            title="Pushing Boundaries"
+            pictureSrc={headshot}
+            content={pushingBoundariesContent}
           />
           <NewsBlock
             title="Music and Being Collective"
