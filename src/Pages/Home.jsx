@@ -51,18 +51,10 @@ const Home = () => {
         Johannes Brahms’ Vier Ernste Gesänge (Four Serious Songs) at its musical starting point.
       </p>
       <p>
-        An immersive and interdisciplinary album experience exploring the cycle of birth,
-        life and death in an endlessly complex world.
-      </p>
-      <p>
-        In early 2024, at Brantwood, Coniston Water, Cumbria, the project took shape, with
-        Johannes Brahms’ Vier Ernste Gesänge (Four Serious Songs) at its musical starting point.
-      </p>
-      <p>
         Contralto vocalist Jess Dandy, composer Alex Mills, pianist Dylan Perez, audio visual
         artist Bobby Williams, photographer Clare Park and movement artist Debbie Green,
         are collaborating to create a recording, an audio-visual exhibition, an artist’s book,
-        and a live event that can be adapted to different venues. This January, February and May we
+        and a live event that can be adapted to different venues. This January, February, May and November we
         continue our work together....
       </p>
       <p>
