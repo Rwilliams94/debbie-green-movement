@@ -18,6 +18,7 @@ const NavBar = ({ homeColour, colour }) => {
     { title: "Home", link: "/home" },
     { title: "Co-creation", link: "/creativedirector" },
     { title: "Dance", link: "/dancer" },
+    { title: "Film", link: "/film" },
     { title: "Photography", link: "/photographer" },
     { title: "Movement", link: "/actormovement" },
     { title: "Contact", link: "/contact" },

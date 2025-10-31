@@ -13,6 +13,7 @@ const CreativeDirector = React.lazy(() => import("./Pages/CreativeDirector"));
 const Dancer = React.lazy(() => import("./Pages/Dancer"));
 const TheLyric = React.lazy(() => import("./Pages/TheLyric"));
 const Photographer = React.lazy(() => import("./Pages/Photographer"));
+const Film = React.lazy(() => import("./Pages/Film"));
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
                         path="/photographer"
                         component={Photographer}
                       />
+                      <Route exact path="/film" component={Film} />
                       <Route exact path="/contact" component={Contact} />
 
                       {/* Lost page */}
