@@ -99,7 +99,7 @@ const Contact = () => {
             rows={6}
             name="message"
             label="Write your message to send"
-            margin="noraml"
+            margin="normal"
             variant="outlined"
             value={toSend.message}
             onChange={handleChange}

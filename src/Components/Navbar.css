@@ -93,7 +93,7 @@
     width: 50%;
     max-width: 200px;
     background: rgba(77, 102, 128, 0.6);
-    margin: none;
+    margin: 0;
 }
 
 .navbar-menu-list {

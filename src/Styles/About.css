@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: none;
+    margin: 0;
     padding: 0;
     width: 100vw;
     overflow: scroll;

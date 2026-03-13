@@ -1,10 +1,9 @@
 .page-main {
-    position: abolute;
     display: flex;
     align-items: center;
     flex-direction: column;
     top: 60px;
-    margin: none;
+    margin: 0;
     padding: 0;
     max-width: 100%;
 }

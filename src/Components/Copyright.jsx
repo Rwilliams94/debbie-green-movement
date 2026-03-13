@@ -7,7 +7,7 @@ const Copyright = () => {
         <a
           className="copyright-link"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           href="https://www.clarepark.com/"
         >
           <h4>Photography © Clare Park</h4>
