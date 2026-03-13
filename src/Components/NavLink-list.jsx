@@ -4,9 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const NavLinkList = ({pages}) => {
 
-    console.log(pages);
-
-    return (
+return (
         <>
         <ul className="navLink-list">
             {pages.map((page) => (

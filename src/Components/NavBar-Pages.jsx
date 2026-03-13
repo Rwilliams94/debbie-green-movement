@@ -53,7 +53,15 @@ const NavBar = ({ homeColour, colour }) => {
         >
           <h2 className="thin">Debbie Green</h2>
         </NavLink>
-        <MenuIcon onClick={handleMenu} style={{ fontSize: 45 }} />
+        <button
+          onClick={handleMenu}
+          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleMenu(); }}
+          aria-label={menu ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={menu}
+          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, display: 'flex', alignItems: 'center' }}
+        >
+          <MenuIcon style={{ fontSize: 45 }} />
+        </button>
       </div>
       {menu ? (
         <div className={`navbar-menu`}>
