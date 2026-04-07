@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
 import NavBar from "./Components/NavBar-Pages";
 import { PopupProvider } from './PopupContext';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 // Lazy load page components for code splitting
 const Home = React.lazy(() => import("./Pages/Home"));
@@ -29,6 +30,7 @@ function App() {
                   timeout={1000}
                   classNames="fade"
                 >
+                  <ErrorBoundary>
                   <Suspense fallback={
                     <div style={{
                       display: 'flex',
@@ -70,6 +72,7 @@ function App() {
                       <Route path="*" component={Home} />
                     </Switch>
                   </Suspense>
+                  </ErrorBoundary>
                 </CSSTransition>
               </TransitionGroup>
             )}

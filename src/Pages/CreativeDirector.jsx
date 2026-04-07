@@ -91,7 +91,7 @@ const CreativeDirector = () => {
       </p>
       <p>
         Buy now - email:{" "}
-        <a href="mailto: clarepark@hotmail.com">clarepark@hotmail.com</a>..
+        <a href="mailto:clarepark@hotmail.com">clarepark@hotmail.com</a>..
         Paperback, 112 pages, 250x170mm, Printed by LD Print Ltd. £18.99
         (excluding postage)
       </p>
@@ -121,7 +121,7 @@ const CreativeDirector = () => {
       </p>
       <p>
         Buy now - email:{" "}
-        <a href="mailto: clarepark@hotmail.com">clarepark@hotmail.com</a>.
+        <a href="mailto:clarepark@hotmail.com">clarepark@hotmail.com</a>.
         Paperback, 152 pages, 210x210mm, Printed by LD Print Ltd. £14.95
         (excluding postage)
       </p>

@@ -1,16 +1,17 @@
 import React from "react";
 import Page from "../Components/page";
 import { usePopup } from '../PopupContext';
+import { beyondReach, holdOnToYourHat, supporting, bookWeb } from "../Images/BreakingForm/breakingFormExport";
+import { theWhiteRabbit } from "../Images/directorAndCollab/directorExport";
 
 
 const BreakingForm = () => {
   const { openPopup } = usePopup();
   const backgroundImage = {
-    image:
-      'https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg',
+    image: beyondReach,
     position: "0px",
   };
-  const imageSource = "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BOOK_web_m2uquz.jpg"
+  const imageSource = bookWeb;
   const rightContent = (
     <>
       <img
@@ -83,23 +84,19 @@ const BreakingForm = () => {
     images: [
       {
         title: "Hold On To Your Hat © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/HOLD_ON_TO_YOUR_HAT_out-take_1_lmhyax.jpg",
+        image: holdOnToYourHat,
       },
       {
         title: "The White Rabbit © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637093496/THE_WHITE_RABBIT_from_Breaking_Form__Buz_and_Parkinson_s_cxk1db.jpg",
+        image: theWhiteRabbit,
       },
       {
         title: "Beyond Reach from series Yellow © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/BEYOND_REACH_FROM_SERIES_YELLOW_2015_xwpknh.jpg",
+        image: beyondReach,
       },
       {
         title: "Supporting from series Blue 2021 © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637102555/SUPPORTING_FROM_SERIES_BLUE_2017_vp4jwc.jpg",
+        image: supporting,
       },
     ]
   };

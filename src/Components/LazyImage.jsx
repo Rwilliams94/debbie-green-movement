@@ -51,15 +51,12 @@ const LazyImage = ({ src, alt, style, className, onClick, ...props }) => {
                     style={{
                         width: '100%',
                         height: '200px',
-                        backgroundColor: '#f0f0f0',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: '#666'
+                        backgroundColor: '#e0e0e0',
+                        background: 'linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%)',
+                        backgroundSize: '200% 100%',
+                        animation: 'shimmer 1.5s infinite',
                     }}
-                >
-                    Loading...
-                </div>
+                />
             )}
         </div>
     );
