@@ -1,10 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../Styles/Home.css";
 import NewsBlock from "../Components/NewsBlock";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems } from "../Images/dancer/dancerExport";
 import { headshot } from "../Images/directorAndCollab/directorExport";
-import { musicAndBeing1, theLyric, iTurnedAndLooked } from "../Images/work/workExport";
+import { musicAndBeing1, theLyric } from "../Images/work/workExport";
+import { poster as iTurnedAndLookedPoster } from "../Images/iTurnedAndLooked/iTurnedAndLookedExport";
 import Credits from "../Components/Credits";
 import Footer from "../Components/Footer";
 
@@ -40,37 +42,27 @@ const Home = () => {
   const brantwoodContent = (
     <>
       <p>
-        For summer 2026.
+        I TURNED AND LOOKED is a music and photography installation by Music &amp; Being
+        from July 11th to August 31st in the Severn Studio at Brantwood, Coniston – the
+        home of 19th century polymath, John Ruskin.
       </p>
       <p>
-        An immersive and interdisciplinary album experience exploring the cycle of birth,
-        life and death in an endlessly complex world.
+        <i>
+          "Part listening room, part secular chapel, I TURNED AND LOOKED invites visitors
+          into an ecological matrix in which sound, image, history, and the more-than-human
+          world are woven together in one charged and living space."
+        </i>{" "}
+        Jess
       </p>
       <p>
-        In early 2024, at Brantwood, Coniston Water, Cumbria, the project took shape, with
-        Johannes Brahms’ Vier Ernste Gesänge (Four Serious Songs) at its musical starting point.
-      </p>
-      <p>
-        Contralto vocalist Jess Dandy, composer Alex Mills, pianist Dylan Perez, audio visual
-        artist Bobby Williams, photographer Clare Park and movement artist Debbie Green,
-        are collaborating to create a recording, an audio-visual exhibition, an artist’s book,
-        and a live event that can be adapted to different venues. This January, February, May and November we
-        continue our work together....
-      </p>
-      <p>
-        United in our belief that the arts can heal both psychologically and spiritually, we are
-        creating work that draws deeply on the past by interrogating how internationally known
-        scripture syncretises with local environments and personal histories. Behind the apparent
-        pastoral idyll of Coniston Water lies a valley marked by centuries of mining and
-        deforestation. This project will use music, voice, sound, performance, photography
-        and movement to reveal the joyous and painful interaction between human beings and
-        nature – the vast web of natural, industrial and cultural interconnection, hiding in
-        plain sight.
-      </p>
-      <p>
-        In a world obsessed with novelty, Music and Being is radical in the truest sense: i
-        t explores the ‘radix’, the root of how we came to be in this place, how we can experience
-        it fully and move forward together.
+        A like-minded, intergenerational group of six collaborators brought together by
+        Cumbrian contralto &amp; Brantwood artist-in-residence, Jess Dandy, Music &amp; Being
+        comprises Jess Dandy, movement artist Debbie Green, composer Alex Mills, photographer
+        Clare Park, pianist Dylan Perez and recording engineer Bobby Williams, each leading
+        practitioners in their fields...{" "}
+        <NavLink to="/iturnedandlooked" style={{ color: "#555", fontStyle: "italic" }}>
+          read more
+        </NavLink>
       </p>
       <p> Photograph © Clare Park </p>
     </>
@@ -148,8 +140,9 @@ const Home = () => {
           <h2>Latest Projects</h2>
           <NewsBlock
             title={`"I turned and looked" - a Music and Being project:`}
-            pictureSrc={iTurnedAndLooked}
+            pictureSrc={iTurnedAndLookedPoster}
             content={brantwoodContent}
+            link="/iturnedandlooked"
           />
           <NewsBlock
             title="Pushing Boundaries"

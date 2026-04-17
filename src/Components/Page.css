@@ -8,6 +8,7 @@
     max-width: 100%;
 }
 
+
 .page-background {
     width: 100vw;
     height: 100vh;
@@ -74,6 +75,29 @@
     line-height: 20px;
 }
 
+.page-content-no-bg {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(
+        to right,
+        #f7f5f2 0%,
+        #f7f5f2 calc(50% - 515px),
+        white calc(50% - 515px),
+        white calc(50% + 515px),
+        #f7f5f2 calc(50% + 515px),
+        #f7f5f2 100%
+    );
+}
+
 .page-grid {
     margin: 40px 0;
     height: 90%;
@@ -91,7 +115,6 @@
     align-items: center;
     width: 100%;
     max-width: 1030px;
-    background-color: white;
 }
 
 /* mobile view */
@@ -111,5 +134,9 @@
     .page-left {
         width: 80%;
         padding: 0 30px;
+    }
+
+    .page-content-no-bg {
+        background: white;
     }
 }

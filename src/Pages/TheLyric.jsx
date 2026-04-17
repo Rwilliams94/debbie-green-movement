@@ -1,10 +1,11 @@
 import React from "react";
 import Page from "../Components/page";
+import { lyricNumberOne, lyricNumberFourteen, lyricAnnesPoems } from "../Images/lyric/lyricExport";
+import { toeTheLine } from "../Images/directorAndCollab/directorExport";
 
 const Lyric = () => {
   const backgroundImage = {
-    image:
-      "https://res.cloudinary.com/dahzswwzk/image/upload/v1633184811/THE_LYRIC_I_number_one_FROM_THE_SERIES_ANNE_S_POEMS_1_h1gfhs.jpg",
+    image: lyricNumberOne,
     position: "0px",
   };
   const rightContent = (
@@ -39,23 +40,19 @@ const Lyric = () => {
     images: [
       {
         title: "THE LYRIC I number nine P2 2021 © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1633184810/THE_LYRIC_I_-_number_fourteen_P2_keyrxm.jpg",
+        image: lyricNumberFourteen,
       },
       {
         title: "THE LYRIC I number fourteen P2 2021 © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1637093495/TOE_THE_LINE_from_A_Square_Foot_of_Sky_y6nfts.jpg",
+        image: toeTheLine,
       },
       {
         title: "THE LYRIC I Air 2021 © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1633184811/THE_LYRIC_I_number_one_FROM_THE_SERIES_ANNE_S_POEMS_1_h1gfhs.jpg",
+        image: lyricNumberOne,
       },
       {
         title: "THE LYRIC I From The Series Anne's Poems 2021 © Clare Park",
-        image:
-          "https://res.cloudinary.com/dahzswwzk/image/upload/v1622214651/THE_LYRIC_I_FROM_THE_SERIES_ANNE_S_POEMS_huhpml.jpg",
+        image: lyricAnnesPoems,
       },
     ],
   };

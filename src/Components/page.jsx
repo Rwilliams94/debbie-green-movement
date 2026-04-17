@@ -13,17 +13,20 @@ const Page = ({
   footerContent,
   creditContent,
 }) => {
+  const hasBackground = backgroundImage && backgroundImage.image;
   return (
     <div className="page-main">
-      <div
-        className="page-background"
-        style={{
-          backgroundImage: "url(" + backgroundImage.image + ")",
-          backgroundPosition: "center " + backgroundImage.position,
-          backgroundSize: "1000px",
-        }}
-      />
-      <div className="page-content">
+      {hasBackground && (
+        <div
+          className="page-background"
+          style={{
+            backgroundImage: "url(" + backgroundImage.image + ")",
+            backgroundPosition: "center " + backgroundImage.position,
+            backgroundSize: "1000px",
+          }}
+        />
+      )}
+      <div className={hasBackground ? "page-content" : "page-content page-content-no-bg"}>
         <div className="page-written">
           <div className="page-left">{leftContent}</div>
           <div className="page-right">{rightContent}</div>
