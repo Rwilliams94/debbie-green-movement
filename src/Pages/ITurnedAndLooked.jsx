@@ -28,23 +28,28 @@ const ITurnedAndLooked = () => {
         </a>
       </p>
       <p>
-        <a href="https://askonasholt.com/artist/dylan-perez" target="_blank" rel="noopener noreferrer">
-          Dylan Perez, piano
-        </a>
-      </p>
-      <p>
         <a href="https://www.debbiegreenmovement.com/" target="_blank" rel="noopener noreferrer">
           Debbie Green, movement
         </a>
       </p>
       <p>
-        <a href="https://bobbywilliams.co.uk/" target="_blank" rel="noopener noreferrer">
-          Bobby Williams, sound
+        <a href="https://www.alexmills.info/" target="_blank" rel="noopener noreferrer">
+          Alex Mills, composer
         </a>
       </p>
       <p>
-        <a href="https://www.alexmills.info/" target="_blank" rel="noopener noreferrer">
-          Alex Mills, composer
+        <a href="https://www.clarepark.com/" target="_blank" rel="noopener noreferrer">
+          Clare Park, photographer
+        </a>
+      </p>
+      <p>
+        <a href="https://askonasholt.com/artist/dylan-perez" target="_blank" rel="noopener noreferrer">
+          Dylan Perez, piano
+        </a>
+      </p>
+      <p>
+        <a href="https://bobbywilliams.co.uk/" target="_blank" rel="noopener noreferrer">
+          Bobby Williams, sound
         </a>
       </p>
     </>
