@@ -1,10 +1,14 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./Navbar.css";
 
+const darkTitlePages = ["/iturnedandlooked"];
+
 const NavBar = ({ homeColour, colour }) => {
   const [menu, setMenu] = useState(false);
+  const location = useLocation();
+  const titleColour = darkTitlePages.includes(location.pathname) ? "#111" : undefined;
 
   function handleMenu() {
     setMenu(!menu);
@@ -27,7 +31,7 @@ const NavBar = ({ homeColour, colour }) => {
   return (
     <>
       <div className="navbar-main-pages">
-        <h2 className="thin left-margin">Debbie Green</h2>
+        <h2 className="thin left-margin" style={titleColour ? { color: titleColour, fontWeight: 100 } : undefined}>Debbie Green</h2>
         <ul className="navbar-list-pages">
           {links.map((link) => (
             <li className="navbar-item" key={link.title}>
@@ -47,7 +51,7 @@ const NavBar = ({ homeColour, colour }) => {
       <div className="navbar-mobile">
         <NavLink
           className="navbar-title-pages med-font"
-          style={{ color: homeColour === "light" ? "whitesmoke" : "black" }}
+          style={{ color: titleColour || (homeColour === "light" ? "whitesmoke" : "black") }}
           exact
           to="/home"
         >

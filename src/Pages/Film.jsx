@@ -3,7 +3,7 @@ import "../Components/Page.css";
 
 const Film = () => {
     // Cloudinary video URL
-    const videoUrl = "https://res.cloudinary.com/dahzswwzk/video/upload/v1/Sequence_1_3_evbopi.mp4";
+    const videoUrl = "https://res.cloudinary.com/dahzswwzk/video/upload/v1776419629/Debbie%20Site/about/Debbie_Green-Movement_Genevieve_Stevenson-compressed_h32mmb.mp4";
 
     return (
         <div className="page-main" style={{
