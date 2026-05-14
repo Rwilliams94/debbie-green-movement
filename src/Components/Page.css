@@ -6,13 +6,13 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 
 .page-background {
     width: 100vw;
     height: 100vh;
-    min-width: 400px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -27,6 +27,7 @@
     flex-direction: column;
     width: 100%;
     color: black;
+    overflow-x: hidden;
 }
 
 .page-written {
@@ -87,6 +88,7 @@
     color: black;
     padding-top: 60px;
     padding-bottom: 60px;
+    overflow-x: hidden;
     background: linear-gradient(
         to right,
         #f7f5f2 0%,
@@ -107,6 +109,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .page-footer {
@@ -119,21 +122,22 @@
 
 /* mobile view */
 
-@media only screen and (max-width: 450px) {
-
+@media only screen and (max-width: 850px) {
 
     .page-written {
         flex-direction: column;
     }
 
     .page-right {
-        width: 80%;
-        padding: 0 30px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .page-left {
-        width: 80%;
-        padding: 0 30px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .page-content-no-bg {
