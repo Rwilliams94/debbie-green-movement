@@ -70,4 +70,41 @@
     width: 100%;
     text-align: right;
   }
-  
+
+@media only screen and (max-width: 850px) {
+    .main-news-block {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 15px 30px;
+        margin-top: 20px;
+    }
+
+    .normal-news-block,
+    .reverse-news-block {
+        flex-direction: column;
+    }
+
+    .normal-picture-block,
+    .reverse-picture-block {
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+
+    .picture-news-block img {
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .content-news-block {
+        width: 100%;
+    }
+
+    .reverse-text-block p {
+        text-align: left;
+    }
+
+    .reverse-title-block {
+        justify-content: flex-start;
+    }
+}
