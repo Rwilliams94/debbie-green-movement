@@ -42,27 +42,23 @@ const Home = () => {
   const brantwoodContent = (
     <>
       <p>
-        I TURNED AND LOOKED is a music and photography installation by Music &amp; Being
-        from July 11th to August 31st in the Severn Studio at Brantwood, Coniston – the
-        home of 19th century polymath, John Ruskin.
+        I turned and looked, music and photographic installation, 11th July - 7th Sept, 2026,
+        Severn Studio, Brantwood, Coniston, home of the polymath John Ruskin.
       </p>
       <p>
-        <i>
-          "Part listening room, part secular chapel, I TURNED AND LOOKED invites visitors
-          into an ecological matrix in which sound, image, history, and the more-than-human
-          world are woven together in one charged and living space."
-        </i>{" "}
-        Jess
-      </p>
-      <p>
-        A like-minded, intergenerational group of six collaborators brought together by
-        Cumbrian contralto &amp; Brantwood artist-in-residence, Jess Dandy, Music &amp; Being
-        comprises Jess Dandy, movement artist Debbie Green, composer Alex Mills, photographer
-        Clare Park, pianist Dylan Perez and recording engineer Bobby Williams, each leading
-        practitioners in their fields...{" "}
+        Project comprises of Jess Dandy, Cumbrian contralto, artist in residence at Brantwood
+        2025/26, movement artist Debbie Green, composer Alex Mills, photographer Clare Park,
+        pianist Dylan Perez and recording engineer Bobby Williams, each leading practitioners
+        in their fields...{" "}
         <NavLink to="/iturnedandlooked" style={{ color: "#555", fontStyle: "italic" }}>
           read more
         </NavLink>
+      </p>
+      <p>
+        see{" "}
+        <a href="https://musicandbeing.bandcamp.com" target="_blank" rel="noopener noreferrer">
+          musicandbeing.bandcamp.com
+        </a>
       </p>
       <p> Photograph © Clare Park </p>
     </>
