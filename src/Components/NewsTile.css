@@ -1,0 +1,72 @@
+/* A strip of equal-width text-only news items, matching the picture news
+   blocks: same title and body sizes, no boxes, hairline rules only. */
+.news-tile-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.news-tile {
+    padding: 0 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.news-tile:first-child {
+    padding-left: 10px;
+}
+
+.news-tile:last-child {
+    padding-right: 10px;
+}
+
+.news-tile + .news-tile {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.news-tile-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.news-tile-text p {
+    margin: 0 0 12px 0;
+}
+
+.news-tile-text p:last-child {
+    margin-bottom: 0;
+}
+
+.news-tile a {
+    color: #555;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 850px) {
+    .news-tile-row {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        padding: 0 15px 30px;
+        box-sizing: border-box;
+    }
+
+    .news-tile,
+    .news-tile:first-child,
+    .news-tile:last-child {
+        padding: 20px 0;
+    }
+
+    .news-tile + .news-tile {
+        border-left: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .news-tile-title {
+        margin-bottom: 12px;
+    }
+}

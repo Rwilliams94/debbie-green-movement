@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../Styles/Home.css";
 import NewsBlock from "../Components/NewsBlock";
+import NewsTile, { NewsTileRow } from "../Components/NewsTile";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems } from "../Images/dancer/dancerExport";
 import { headshot } from "../Images/directorAndCollab/directorExport";
@@ -134,6 +135,35 @@ const Home = () => {
       <div className="home-content">
         <div className="home-written">
           <h2>Latest Projects</h2>
+          <NewsTileRow>
+            <NewsTile title="Resonant Bodies Collective">
+              <p>
+                Debbie is currently one of four dancers and a composer with Resonant Bodies
+                Collective, co-creating 'Caught on the Cusp' (working title) for Spring 2027.
+              </p>
+              <p>
+                <a href="https://www.instagram.com/resonant_bodies_collective_" target="_blank" rel="noopener noreferrer">
+                  @resonant_bodies_collective_
+                </a>
+              </p>
+            </NewsTile>
+            <NewsTile title="Dance Blast">
+              <p>
+                Debbie is a Dance Blast Trustee,{" "}
+                <a href="https://www.dance-blast.org" target="_blank" rel="noopener noreferrer">
+                  www.dance-blast.org
+                </a>
+              </p>
+            </NewsTile>
+            <NewsTile title="Moving Souls Dance">
+              <p>
+                Debbie is a Moving Souls Dance CiC Director,{" "}
+                <a href="https://www.movingsouls.dance" target="_blank" rel="noopener noreferrer">
+                  www.movingsouls.dance
+                </a>
+              </p>
+            </NewsTile>
+          </NewsTileRow>
           <NewsBlock
             title={`"I turned and looked" - a Music and Being project:`}
             pictureSrc={iTurnedAndLookedPoster}
