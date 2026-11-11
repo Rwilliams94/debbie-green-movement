@@ -19,7 +19,7 @@ const ITurnedAndLooked = () => {
       <div>
         <h5>A Music &amp; Being installation</h5>
         <h5>Severn Studio at Brantwood, Coniston</h5>
-        <h5>July 11th – August 31st</h5>
+        <h5>July 11th – Sept 7th</h5>
       </div>
       <br />
       <p>
@@ -59,7 +59,7 @@ const ITurnedAndLooked = () => {
     <>
       <p>
         I TURNED AND LOOKED is a music and photography installation by Music &amp; Being
-        from July 11th to August 31st in the Severn Studio at Brantwood, Coniston – the
+        from July 11th to Sept 7th in the Severn Studio at Brantwood, Coniston – the
         home of 19th century polymath, John Ruskin.
       </p>
       <p>

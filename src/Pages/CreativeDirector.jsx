@@ -62,6 +62,37 @@ const CreativeDirector = () => {
         commitment to a co-conceived objective with either one or both in front
         of the camera.
       </p>
+      <h4>Collective projects:</h4>
+      <h4>
+        <i>I Turned and Looked</i>
+      </h4>
+      <p>
+        A music and photographic installation by Music &amp; Being, 11th July - 7th Sept 2026, Severn Studio, Brantwood,
+        Coniston, home of the polymath John Ruskin. A like-minded,
+        intergenerational group of six collaborators brought together by
+        Cumbrian contralto and Brantwood artist-in-residence Jess Dandy, the
+        project comprises Jess Dandy, movement artist Debbie Green, composer
+        Alex Mills, photographer Clare Park, pianist Dylan Perez and recording
+        engineer Bobby Williams. During five residencies over two years the
+        artists have interrogated how Brahms' <i>Four Serious Songs</i> can
+        syncretise landscape, memory and personal histories to inspire new
+        work.{" "}
+        <NavLink exact to="/iturnedandlooked">
+          read more
+        </NavLink>{" "}
+        or listen at{" "}
+        <a href="https://musicandbeing.bandcamp.com" target="_blank" rel="noopener noreferrer">
+          musicandbeing.bandcamp.com
+        </a>
+      </p>
+      <h4>
+        <i>Resonant Bodies Collective</i>
+      </h4>
+      <p>
+        I am currently one of four dancers and a composer with Resonant Bodies
+        Collective, co-creating{" "}
+        <i>Caught on the Cusp</i> (working title) for Spring 2027.
+      </p>
     </>
   );
   

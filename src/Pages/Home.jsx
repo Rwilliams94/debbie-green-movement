@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../Styles/Home.css";
 import NewsBlock from "../Components/NewsBlock";
+import NewsTile, { NewsTileRow } from "../Components/NewsTile";
 import { beyondReach } from "../Images/BreakingForm/breakingFormExport";
 import { marchSeems } from "../Images/dancer/dancerExport";
 import { headshot } from "../Images/directorAndCollab/directorExport";
@@ -42,27 +43,23 @@ const Home = () => {
   const brantwoodContent = (
     <>
       <p>
-        I TURNED AND LOOKED is a music and photography installation by Music &amp; Being
-        from July 11th to August 31st in the Severn Studio at Brantwood, Coniston – the
-        home of 19th century polymath, John Ruskin.
+        I turned and looked, music and photographic installation, 11th July - 7th Sept, 2026,
+        Severn Studio, Brantwood, Coniston, home of the polymath John Ruskin.
       </p>
       <p>
-        <i>
-          "Part listening room, part secular chapel, I TURNED AND LOOKED invites visitors
-          into an ecological matrix in which sound, image, history, and the more-than-human
-          world are woven together in one charged and living space."
-        </i>{" "}
-        Jess
-      </p>
-      <p>
-        A like-minded, intergenerational group of six collaborators brought together by
-        Cumbrian contralto &amp; Brantwood artist-in-residence, Jess Dandy, Music &amp; Being
-        comprises Jess Dandy, movement artist Debbie Green, composer Alex Mills, photographer
-        Clare Park, pianist Dylan Perez and recording engineer Bobby Williams, each leading
-        practitioners in their fields...{" "}
+        Project comprises of Jess Dandy, Cumbrian contralto, artist in residence at Brantwood
+        2025/26, movement artist Debbie Green, composer Alex Mills, photographer Clare Park,
+        pianist Dylan Perez and recording engineer Bobby Williams, each leading practitioners
+        in their fields...{" "}
         <NavLink to="/iturnedandlooked" style={{ color: "#555", fontStyle: "italic" }}>
           read more
         </NavLink>
+      </p>
+      <p>
+        see{" "}
+        <a href="https://musicandbeing.bandcamp.com" target="_blank" rel="noopener noreferrer">
+          musicandbeing.bandcamp.com
+        </a>
       </p>
       <p> Photograph © Clare Park </p>
     </>
@@ -138,6 +135,35 @@ const Home = () => {
       <div className="home-content">
         <div className="home-written">
           <h2>Latest Projects</h2>
+          <NewsTileRow>
+            <NewsTile title="Resonant Bodies Collective">
+              <p>
+                Debbie is currently one of four dancers and a composer with Resonant Bodies
+                Collective, co-creating 'Caught on the Cusp' (working title) for Spring 2027.
+              </p>
+              <p>
+                <a href="https://www.instagram.com/resonant_bodies_collective_" target="_blank" rel="noopener noreferrer">
+                  @resonant_bodies_collective_
+                </a>
+              </p>
+            </NewsTile>
+            <NewsTile title="Dance Blast">
+              <p>
+                Debbie is a Dance Blast Trustee,{" "}
+                <a href="https://www.dance-blast.org" target="_blank" rel="noopener noreferrer">
+                  www.dance-blast.org
+                </a>
+              </p>
+            </NewsTile>
+            <NewsTile title="Moving Souls Dance">
+              <p>
+                Debbie is a Moving Souls Dance CiC Director,{" "}
+                <a href="https://www.movingsouls.dance" target="_blank" rel="noopener noreferrer">
+                  www.movingsouls.dance
+                </a>
+              </p>
+            </NewsTile>
+          </NewsTileRow>
           <NewsBlock
             title={`"I turned and looked" - a Music and Being project:`}
             pictureSrc={iTurnedAndLookedPoster}
